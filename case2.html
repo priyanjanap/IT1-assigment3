@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Title</title>
+
+    <style>
+
+        header{
+            background-color: lightyellow;
+            height: 100px;
+            position: relative;
+        }
+
+        header>nav{
+            position: absolute;
+            right: 0px;
+
+        }
+
+        header>nav{
+            position: absolute;
+            list-style: none;
+            top: 25px;
+            right: 3px;
+
+        }
+        img{
+            position: absolute;
+            top: 20px;
+
+        }
+
+
+        header>nav>ul>li{
+            display: inline;
+            margin:0px  10px;
+        }
+
+
+        footer{
+            background-color: dimgrey;
+        }
+        footer>div{
+            color: white;
+            text-align: center;
+            padding: 10px 0px;
+
+        }
+
+        main{
+            position: relative;
+        }
+
+        aside{top: 0px;
+            background: purple;
+            color: white;
+            width: 250px;
+
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        aside>nav>ul{
+            margin: 0px;
+            list-style: none;
+        }
+
+        main>section{
+            margin-left:250px;
+
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+
+
+        }
+
+        main>section>p:nth-child(1){
+            margin-top:0px;
+        }
+
+        main>section>section{
+            background: aqua;
+            position: relative;
+            height: 300px;
+
+        }
+
+        main>section>section>div {
+            background: url("assest/monkey.gif");
+            width: calc(100%/3);
+            height: 300px;
+            position: absolute;
+        }
+        main section section div:nth-child(2){
+            right: 0;
+            left: 0;
+            margin: auto;
+        }main section section div:nth-child(3){
+             right: 0;
+             margin: auto;
+         }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--header selection-->
+<header>
+    <img src="assest/photo_2024-08-17_15-19-17.jpg" alt="image" title="angular"height="40px">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contacts</li>
+            <li>about us</li>
+        </ul>
+    </nav>
+</header>
+
+<!--main Section-->
+<main>
+    <!--side bar-->
+    <aside>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contects</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!--content section-->
+    <section>
+
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus dignissimos, error fuga in odio possimus quam quos similique ut! Ab accusamus ad amet asperiores, aut cum dicta dolorum eius error ex explicabo facere facilis harum labore laboriosam laudantium, maiores mollitia neque nesciunt nihil nisi, nostrum numquam perspiciatis placeat possimus quaerat qui reiciendis repellat repudiandae sequi sunt tempora tenetur totam velit vero voluptatibus voluptatum. Consequatur, modi quidem. Aliquid amet aspernatur consectetur consequatur debitis distinctio, eius facere fuga hic id ipsa itaque iusto labore magni necessitatibus nisi numquam officia praesentium quae quibusdam recusandae reiciendis sed sequi soluta sunt unde veniam voluptates?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dolor ea, impedit iure maiores nesciunt nisi odit, officiis omnis perspiciatis porro provident ratione rem velit. Ad adipisci cum debitis deleniti eius est facere, fuga inventore libero maiores maxime molestias natus nemo odio officia quidem, saepe tempora ullam veritatis vero vitae, voluptas voluptatem voluptates! Alias harum natus numquam officiis omnis quibusdam quos repellendus rerum voluptates. Accusamus ad architecto cumque debitis dolore ea error esse eveniet facilis fugiat id illum itaque iusto molestiae molestias necessitatibus nemo nisi nobis numquam odit perferendis placeat quaerat quia quis quisquam quo sint, soluta tenetur totam?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque cum dolor facilis ipsa minus, porro recusandae voluptas! Cumque id sunt voluptatem voluptatibus. Amet atque dicta dolore doloremque est eum exercitationem, illo in incidunt ipsam iusto laudantium nam natus nemo neque, non optio possimus qui sint tempora tempore tenetur velit voluptas! A aliquam eos eveniet hic voluptas. Ab ad, aperiam asperiores atque culpa cupiditate, doloremque et eveniet, excepturi exercitationem explicabo ipsum laborum laudantium minima odio optio provident reiciendis suscipit tempore veritatis. At deleniti dolorum earum enim ex maiores quaerat, recusandae temporibus. Aliquid asperiores atque corporis eaque natus pariatur, ullam vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque cum dolor facilis ipsa minus, porro recusandae voluptas! Cumque id sunt voluptatem voluptatibus. Amet atque dicta dolore doloremque est eum exercitationem, illo in incidunt ipsam iusto laudantium nam natus nemo neque, non optio possimus qui sint tempora tempore tenetur velit voluptas! A aliquam eos eveniet hic voluptas. Ab ad, aperiam asperiores atque culpa cupiditate, doloremque et eveniet, excepturi exercitationem explicabo ipsum laborum laudantium minima odio optio provident reiciendis suscipit tempore veritatis. At deleniti dolorum earum enim ex maiores quaerat, recusandae temporibus. Aliquid asperiores atque corporis eaque natus pariatur, ullam vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque cum dolor facilis ipsa minus, porro recusandae voluptas! Cumque id sunt voluptatem voluptatibus. Amet atque dicta dolore doloremque est eum exercitationem, illo in incidunt ipsam iusto laudantium nam natus nemo neque, non optio possimus qui sint tempora tempore tenetur velit voluptas! A aliquam eos eveniet hic voluptas. Ab ad, aperiam asperiores atque culpa cupiditate, doloremque et eveniet, excepturi exercitationem explicabo ipsum laborum laudantium minima odio optio provident reiciendis suscipit tempore veritatis. At deleniti dolorum earum enim ex maiores quaerat, recusandae temporibus. Aliquid asperiores atque corporis eaque natus pariatur, ullam vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque cum dolor facilis ipsa minus, porro recusandae voluptas! Cumque id sunt voluptatem voluptatibus. Amet atque dicta dolore doloremque est eum exercitationem, illo in incidunt ipsam iusto laudantium nam natus nemo neque, non optio possimus qui sint tempora tempore tenetur velit voluptas! A aliquam eos eveniet hic voluptas. Ab ad, aperiam asperiores atque culpa cupiditate, doloremque et eveniet, excepturi exercitationem explicabo ipsum laborum laudantium minima odio optio provident reiciendis suscipit tempore veritatis. At deleniti dolorum earum enim ex maiores quaerat, recusandae temporibus. Aliquid asperiores atque corporis eaque natus pariatur, ullam vel!</p>
+
+
+    </section>
+</main>
+
+
+
+<footer>
+    <div>Developed by IJSE</div>
+</footer>
+
+</body>
+</html>
